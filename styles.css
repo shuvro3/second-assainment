@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: "Noto Serif", serif;
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 130px;
+}
+nav ul{
+    display: flex;
+    gap: 48px;
+    list-style: none;
+
+
+}
+ ul li a{
+    text-decoration: none;
+} 
+
+/* share color */
+.main-color{
+    color:rgb(137, 135, 161);
+    font-weight: 400;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row;
+    padding: 120px 0px;
+}
+
+span{
+    font-size: 50px;
+    font-weight: 700px;
+    color: rgb(233, 90, 8);
+}
+
+.sige{
+    font-size: 50px;
+}
+
