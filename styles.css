@@ -7,7 +7,7 @@
 
 .container{
     max-width: 1280px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 header{
@@ -26,7 +26,9 @@ nav ul{
 }
  ul li a{
     text-decoration: none;
+    color: black;
 } 
+
 
 /* share color */
 .main-color{
@@ -50,5 +52,47 @@ span{
 
 .sige{
     font-size: 50px;
+}
+.plants{
+    text-align: center;
+}
+.btn{
+    margin: 30px 0px;
+    padding: 20px 100px;
+    background-color: rgb(233, 90, 8);
+    border: 0;
+    color: azure;
+}
+
+
+.our-plants{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.our-plants-cart{
+    text-align: center;
+    width: 270px;
+    height: 52px; 
+    }
+
+
+
+
+
+/* MOBAIL ER JONNO media querie */
+
+@media screen and ( max-width: 675px){
+   .ondho{
+    display: none;
+   }
+   .banner{
+    flex-direction: column-reverse;
+    
+   }
+
+   .our-plants{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   }
 }
 
