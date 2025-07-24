@@ -75,6 +75,27 @@ span{
     height: 52px; 
     }
 
+.flower-store{
+    position: relative;
+}
+
+.challenge{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    bottom: 70%;
+    left: 70%;
+}
+
+.store{
+    display: flex;
+    margin: 200px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+.gaps{
+    margin-top: 30px;
+}
 
 
 
@@ -82,12 +103,16 @@ span{
 /* MOBAIL ER JONNO media querie */
 
 @media screen and ( max-width: 675px){
-   .ondho{
+   .ondho, 
+   .challenge{
     display: none;
    }
    .banner{
     flex-direction: column-reverse;
-    
+   }
+   .store{
+    flex-direction: column;
+    width: 100%;
    }
 
    .our-plants{
