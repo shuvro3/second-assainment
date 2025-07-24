@@ -1,42 +1,44 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0%;
     margin: 0%;
     font-family: "Noto Serif", serif;
 }
 
-.container{
+.container {
     max-width: 1280px;
     margin: 0 auto;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
     margin-bottom: 130px;
 }
-nav ul{
+
+nav ul {
     display: flex;
     gap: 48px;
     list-style: none;
 
 
 }
- ul li a{
+
+ul li a {
     text-decoration: none;
     color: black;
-} 
+}
 
 
 /* share color */
-.main-color{
-    color:rgb(137, 135, 161);
+.main-color {
+    color: rgb(137, 135, 161);
     font-weight: 400;
 }
 
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -44,19 +46,21 @@ nav ul{
     padding: 120px 0px;
 }
 
-span{
+span {
     font-size: 50px;
     font-weight: 700px;
     color: rgb(233, 90, 8);
 }
 
-.sige{
+.sige {
     font-size: 50px;
 }
-.plants{
+
+.plants {
     text-align: center;
 }
-.btn{
+
+.btn {
     margin: 30px 0px;
     padding: 20px 100px;
     background-color: rgb(233, 90, 8);
@@ -65,21 +69,22 @@ span{
 }
 
 
-.our-plants{
+.our-plants {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
-.our-plants-cart{
+
+.our-plants-cart {
     text-align: center;
     width: 270px;
-    height: 52px; 
-    }
+    height: 52px;
+}
 
-.flower-store{
+.flower-store {
     position: relative;
 }
 
-.challenge{
+.challenge {
     position: absolute;
     height: 300px;
     width: 300px;
@@ -87,40 +92,68 @@ span{
     left: 70%;
 }
 
-.store{
+.store {
     display: flex;
     margin: 200px 0px;
     align-items: center;
     justify-content: space-between;
 }
-.gaps{
+
+.gaps {
     margin-top: 30px;
 }
 
-.center{
+.center {
     text-align: center;
 }
+
+.problem {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.problem-er-vitorr {}
+
+.color{
+    color: wheat;
+}
+
+.a,.b, .c {
+    position: relative;
+}
+
+.aa, .bb, .cc {
+    color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
 
 
 /* MOBAIL ER JONNO media querie */
 
-@media screen and ( max-width: 675px){
-   .ondho, 
-   .challenge{
-    display: none;
-   }
-   .banner{
-    flex-direction: column-reverse;
-   }
-   .store{
-    flex-direction: column;
-    width: 100%;
-   }
+@media screen and (max-width: 675px) {
 
-   .our-plants{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-   }
+    .ondho,
+    .challenge {
+        display: none;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+    }
+
+    .store {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .our-plants {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
-
