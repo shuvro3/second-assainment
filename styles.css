@@ -103,7 +103,7 @@ span {
     margin-top: 30px;
 }
 
-.center {
+.center,.g {
     text-align: center;
 }
 
@@ -113,23 +113,45 @@ span {
     margin-top: 100px;
 }
 
-.problem-er-vitorr {}
+.image {
+    border-radius: 12px;
+}
 
-.color{
+.color {
     color: wheat;
 }
 
-.a,.b, .c {
+.a,
+.b,
+.c,
+.d {
     position: relative;
 }
 
-.aa, .bb, .cc {
+.aa,
+.bb,
+.cc,
+.dd {
     color: aliceblue;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.d img {
+    width: 100%;
+}
+
+.ghurar-dim {
+    width: 644px;
+    height: 60px;
+}
+
+.container-background{
+    margin-top: 120px;
+}
+
 
 
 
@@ -156,4 +178,10 @@ span {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .problem {
+
+        flex-direction: column;
+    }
+
 }
