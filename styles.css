@@ -103,7 +103,8 @@ span {
     margin-top: 30px;
 }
 
-.center,.g {
+.center,
+.g {
     text-align: center;
 }
 
@@ -148,11 +149,31 @@ span {
     height: 60px;
 }
 
-.container-background{
+.container-background {
     margin-top: 120px;
 }
 
+footer {
+    display: flex;
+    justify-content: space-between;
+}
 
+.top {}
+
+.footer-first,
+.footer-second,
+.footer-third,
+.footer-four {
+    gap: 30px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.footer-second,
+.footer-third {
+    display: flex;
+    flex-direction: column;
+}
 
 
 
@@ -179,9 +200,20 @@ span {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .problem {
+    .problem,
+    .top {
 
         flex-direction: column;
+    }
+
+
+    .footer-first,
+    .footer-second,
+    .footer-third,
+    .footer-four {
+        margin-top: 30px;
+        margin-bottom: 0px;
+        /* flex-direction: column; */
     }
 
 }
