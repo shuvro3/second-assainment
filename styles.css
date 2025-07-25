@@ -53,7 +53,7 @@ span {
 }
 
 .sige {
-    font-size: 50px;
+    font-size: 3.125rem;
 }
 
 .plants {
@@ -145,13 +145,29 @@ span {
 }
 
 .ghurar-dim {
-    width: 644px;
+    width: 80%;
     height: 60px;
 }
 
 .container-background {
     margin-top: 120px;
 }
+
+
+.bn {
+    /* margin: 30px 0px; */
+    padding: 20px 100px;
+    background-color: rgb(233, 90, 8);
+    border: 0;
+    color: azure;
+}
+
+
+.email{
+    display: flex;
+}
+
+
 
 footer {
     display: flex;
@@ -213,7 +229,15 @@ footer {
     .footer-four {
         margin-top: 30px;
         margin-bottom: 0px;
-        /* flex-direction: column; */
+
+    }
+
+    /* .z {
+        align-items: center;
+    } */
+
+    .ghura {
+        width: 100%;
     }
 
 }
